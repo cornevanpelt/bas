@@ -1,6 +1,15 @@
 {
   "name": "bas/pay-dates",
   "description": "Sample code for BAS pay dates developer challenge",
+  "type": "project",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Corné van Pelt",
+      "email": "cornevanpelt@gmail.com"
+    }
+  ],
   "require": {
     "php-di/php-di": "^7.0"
   },
