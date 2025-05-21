@@ -12,7 +12,8 @@ is zeker niet noodzakelijk voor zo'n triviale applicatie, maar ik vind dit wel e
 basis neer te zetten waarop later verder gebouwd kan worden of waarvan de code gemakkelijk hergebruikt kan worden.
 
 **Omgevingsvereisten**
-- Docker (bevat PHP, Git en Composer)
+- Git
+- Docker
 
 **Stappen om de applicatie te runnen**
 1) Clone repo to a project folder (e.g. "bas-salary")\
