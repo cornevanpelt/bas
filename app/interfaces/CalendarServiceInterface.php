@@ -7,33 +7,22 @@ use DateTimeImmutable;
 interface CalendarServiceInterface
 {
     /**
-     * @param int $year
-     * @param int $month
-     * @param int $day
-     *
-     * @return DateTimeImmutable
+     * Create an immutable datetime for the given date
      */
     public function createDate(int $year, int $month, int $day): DateTimeImmutable;
 
     /**
-     * @param DateTimeImmutable $date
-     *
-     * @return bool
+     * Check if the given date is in the past
      */
     public function isPastDate(DateTimeImmutable $date): bool;
 
     /**
-     * @param DateTimeImmutable $date
-     *
-     * @return bool
+     * Check if given date is a weekday (monday thru friday)
      */
     public function isWeekday(DateTimeImmutable $date): bool;
 
     /**
-     * @param int $year
-     * @param int $month
-     *
-     * @return DateTimeImmutable
+     * Get the last day of the given month in the given year
      */
     public function lastDayOfMonth(int $year, int $month): DateTimeImmutable;
 }
